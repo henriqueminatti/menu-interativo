@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+* {
+    margin: 0 auto;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu-h {
+    list-style-type: none;
+    padding: 0px;
+    background-color: rgb(57, 57, 66);
+}
+
+#menu-h li {
+    display: inline;
+}
+#menu-h li a {
+    display: inline;
+    padding: 20px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    transition-duration: 1s;
+}
+#menu-h li a:hover {
+    background-color: rgb(98, 95, 245);
+}
